@@ -1,0 +1,28 @@
+@import './components/AboutRouts/index.scss';
+@import './components/Account/index.scss';
+@import './components/Contact/index.scss';
+@import './components/Footer/index.scss';
+@import './components//Header/index.scss';
+@import './components/HotelPage/index.scss';
+@import  './components/Hotels/index.scss';
+@import './components//Main/index.scss';
+@import './components//Map/index.scss';
+@import './components/Popular/index.scss';
+@import './components/Register/index.scss';
+@import './components/Reviews/index.scss';
+@import './components/Rout/index.scss';
+
+*{
+     margin: 0;
+     padding: 0;
+}
+.container{
+     margin: 0  auto ;
+     width: 1440px;
+}
+a{
+     text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
