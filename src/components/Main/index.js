@@ -21,12 +21,14 @@ function Main() {
                            countries. <Link className="link" >read more</Link></h3>
                        </div>
                        <div>
-                         <button className="m-btn">More detailed</button>
+                        <Link to={"/more"}>
+                        <button className="m-btn">More detailed</button>
+                        </Link>
                         
                        </div>
                     </div>
                 <div className="main-blocks">
-                    <div className="block ">
+                    <div className="blocks ">
                         <h3>Kyrgyzstan</h3>
                         <div className="line"></div>
                         <p>Kyrgyzstan is a country in  
@@ -37,13 +39,15 @@ function Main() {
                               the Tien Shan ridges.</p>
                               <div className="direct">
                               
+                                <Link to={"/kyrgyz"}>
                                 <a>Read more</a>
+                                </Link>
                                 <MdKeyboardArrowRight className="line1"/>
 
                               </div>
                             
                     </div>
-                    <div className="block">
+                    <div className="blocks">
                         <h3>Culture</h3>
                         <div className="line"></div>
                         <p>The culture of Kyrgyzstan was   
@@ -54,11 +58,13 @@ function Main() {
                               Turkey, and yet it remained quite   
                               distinctive and unique.</p>
                               <div className="direct">
+                                <Link to={"/culture"}>
                                 <a>Read more </a>
+                                </Link>
                                 <MdKeyboardArrowRight className="line1"/>
                               </div>
                     </div>
-                    <div className="block">
+                    <div className="blocks">
                         <h3>Tradition</h3>
                         <div className="line"></div>
                          <p>The most traditional custom 
@@ -70,11 +76,13 @@ function Main() {
                              grandparents was called “chon uy”   
                              (“big house”), thus expressing...</p>
                              <div className="direct">
+                                <Link to={"/tradition"}>
                                 <a>Read more </a>
+                                </Link>
                                 <MdKeyboardArrowRight className="line1"/>
                               </div>
                     </div>
-                    <div className="block">
+                    <div className="blocks">
                         <h3>Climate</h3>
                         <div className="line"></div>
                         <p>The climate of Kyrgyzstan is   
@@ -86,7 +94,9 @@ function Main() {
                            hottest months. Winters are cold   
                            and snowy, especially high in the...</p>
                            <div className="direct">
+                                <Link to={"/climate"}>
                                 <a>Read more </a>
+                                </Link>
                                 <MdKeyboardArrowRight className="line1"/>
                               </div>
                     </div>

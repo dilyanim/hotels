@@ -1,8 +1,10 @@
 import React from "react";
+import Arashan from "../Arashan/index"
 
 
 function Altyn() {
     return(
+        <>
         <div id="altyn">
             <div className="container">
                 <div className="altyn">
@@ -12,6 +14,8 @@ function Altyn() {
                 </div>
             </div>
         </div>
+        <Arashan/>
+        </>
     )
 }
 

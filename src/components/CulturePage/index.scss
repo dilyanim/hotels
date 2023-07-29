@@ -1,0 +1,218 @@
+#CultureDetail {
+    margin-top: 110px;
+
+    .container {
+        .CultureDetail {
+            .CultureDetailPage1 {
+                display: flex;
+                align-items: start;
+                justify-content: center;
+
+                span {
+                    color: #000;
+                    font-family: Poppins, sans-serif;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+
+                p {
+                    color: #000;
+                    font-family: Poppins, sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+
+                img {
+                    margin-left: 20px;
+                }
+            }
+
+            .CultureDetailPage2 {
+                margin-top: 50px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+
+                span {
+                    color: #000;
+                    font-family: Poppins, sans-serif;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+
+                p {
+                    margin-bottom: 20px;
+                    color: #000;
+                    font-family: Poppins, sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+
+                &--imgs {
+                    margin-left: 50px;
+                    width: 85%;
+                    overflow-x: auto;
+
+                    &::-webkit-scrollbar {
+                        display: none;
+                    }
+
+                    &__scrool {
+                        display: flex;
+                        align-items: center;
+
+                        img {
+                            margin: 0 10px;
+                        }
+                    }
+                }
+            }
+
+            .CultureDetailPage3 {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                margin: 50px 0 0 50px;
+
+                &--text {
+                    margin-bottom: 40px;
+                    display: flex;
+                    align-items: start;
+                    justify-content: center;
+
+                    span {
+                        color: #000;
+                        font-family: Poppins;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+
+                    p {
+                        margin-right: 20px;
+                        width: 614px;
+                        color: #000;
+                        font-family: Poppins, sans-serif;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+
+                }
+
+                &--imgs {
+                    margin-left: 80px;
+                    width: 95%;
+                    overflow-x: scroll;
+
+                    &::-webkit-scrollbar {
+                        display: none;
+                    }
+
+                    &__scrool {
+                        display: flex;
+
+                        img {
+                            margin: 0 10px;
+                        }
+                    }
+
+                }
+            }
+
+            .CultureDetailPage-4 {
+                margin: 50px 0 50px 130px;
+                display: flex !important;
+                align-items: start;
+
+                span {
+                    color: #000;
+                    font-family: Poppins, sans-serif;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+
+                p {
+                    margin-right: 55px;
+                    width: 570px;
+                    color: #000;
+                    font-family: Poppins, sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+            }
+
+            .CultureDetailPage5 {
+                display: flex;
+                align-items: start;
+                justify-content: center;
+
+                span {
+                    color: #000;
+                    font-family: Poppins, sans-serif;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+
+                p {
+                    margin-right: 45px;
+                    color: #000;
+                    font-family: Poppins, sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+            }
+
+            .CultureDetailPage6 {
+                margin-top: 50px;
+                display: flex;
+                align-items: start;
+                justify-content: center;
+
+                span {
+                    color: #000;
+                    font-family: Poppins, sans-serif;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+
+                p {
+                    margin-right: 45px;
+                    color: #000;
+                    font-family: Poppins, sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+            }
+
+            .CultureDetailPage7 {
+                margin: 110px 0 50px 130px;
+                display: flex;
+                align-items: start;
+                flex-direction: column;
+
+                h5 {
+                    margin-bottom: 61px;
+                    color: #0992D5;
+                    font-family: Poppins, sans-serif;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+
+                &--imgs {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        margin: 0 6px;
+                    }
+                }
+            }
+        }
+    }
+}

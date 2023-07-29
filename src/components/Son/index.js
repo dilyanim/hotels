@@ -1,11 +1,11 @@
 import React from "react";
-
-
+import Kol from "../Kol/index"
 
 
 
 function Son() {
     return(
+        <>
         <div id="son">
             <div className="container">
                 <div className="son">
@@ -14,9 +14,9 @@ function Son() {
                     </div>
                 </div> 
             </div>
-            
-
         </div>
+        <Kol/>
+        </>
     )
 }
 

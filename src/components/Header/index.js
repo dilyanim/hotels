@@ -24,7 +24,7 @@ function Header(){
                     
                     <Link to='/main'>Main</Link>
                     <Link to="/">Hotels</Link>
-                    <Link to="/">Routes</Link>
+                    <Link to="/rout">Routes</Link>
                     <Link to='/map'>Map</Link>
                     <Link to='/contact'>Contact</Link>
                     <select className="select" >
@@ -48,7 +48,7 @@ function Header(){
 
 
                 </div>
-                     <div class="hamburger-menu">
+                     {/* <div class="hamburger-menu">
                     <input id="menu__toggle" type="checkbox" />
                     <label class="menu__btn" for="menu__toggle">
                     <span></span>
@@ -80,7 +80,7 @@ function Header(){
                     </select></Link></li>
 
                       </ul>
-                      </div>
+                      </div> */}
                 <div  className="header-acc">
                      <div>
                         <RiAccountCircleLine className="acc"/>
@@ -94,7 +94,9 @@ function Header(){
                         }}>Account</option>
                         <option style={{
                             color : "black"
-                        }}><a>Sign up</a></option>
+                        }}><Link to={"/sign"}>
+                        <p style={{color:"black"}}>Sign up</p>
+                        </Link></option>
                         <option style={{
                             color: "black"
                         }}>Log in</option>

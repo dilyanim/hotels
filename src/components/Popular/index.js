@@ -58,7 +58,7 @@ function Popular() {
                             <p>Altyn-Arashan (Golden Spring) is located in an Alpine valley, as if descended from an art postcard. It is located at an altitude of 3000 meters, in the south of which is Palatka peak (4260 m).</p>
                             <div className="more">
                                      <div>
-                                        <Link   Link className="nav" to="/altyn:id">read more</Link>
+                                        <Link   Link className="nav" to="/altyn">read more</Link>
                                        </div>       
                                      <div>
                                         < MdKeyboardArrowRight className="more1"/>
