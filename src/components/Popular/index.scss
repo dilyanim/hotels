@@ -1,0 +1,151 @@
+#popular{   
+    margin: 900px 60px;
+}
+.img1{
+    display: flex;
+}
+
+.img2{
+    display: flex;
+}
+.img3{
+    display: flex;
+}
+.popular-img img{
+     margin: 10px 15px;
+     width: 370px;
+     height: 560px;
+}
+.popular-img{
+   margin: 0 110px;
+}
+
+
+.popular-text h1{
+    color: #0992D5;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin: 50px 0 10px 0;
+}
+.img1{
+     position: relative;
+
+}
+.img1 h3{
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.img1 p{
+    width: 330px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+}
+.a-block{
+    width: 370px;
+    height: 180px;
+    border-radius: 16px;
+    background: rgba(9, 146, 213, 0.50);
+    backdrop-filter: blur(5px);
+    top: 390px;
+    position: absolute;
+    left: 15px;
+    opacity: 0;
+   transition: .4s;
+}
+.a-block:hover{
+    opacity: 1;
+}
+.img2 h3{
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: normal;
+}
+.img2 p{
+    width: 330px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+}
+.img2{
+    position: relative;
+}
+.d-block{
+    width: 370px;
+    height: 180px;
+    border-radius: 16px;
+    background: rgba(9, 146, 213, 0.50);
+    backdrop-filter: blur(5px);
+    top: 390px;
+    position: absolute;
+    left: 15px;
+    opacity: 0;
+   transition: .4s;
+}
+.d-block:hover{
+    opacity: 1;
+}
+
+.img3{
+     position: relative;
+}
+.img3 h3{
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: normal;
+}
+.img3 p{
+    width: 330px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+}
+.comp{
+     margin: 25px;
+}
+.comp h3{
+     margin-bottom: 10px;
+}
+.nav{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.more{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 15px 0 10px 190px;
+}
+.more1{
+    color: #FFF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+
+// @media (max-width: 320px){
+//     #popular{
+//         .container{
+//             .popular-img{
+//                display: none;
+//             }
+//         }
+//     }
+// }

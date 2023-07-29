@@ -1,0 +1,144 @@
+.kol-1{
+    margin: 120px 0;
+}
+
+.kol-1 p{
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;    
+    width: 1160px;
+}
+.kol-text img{
+    width: 1160px;
+    height: 560px;
+    flex-shrink: 0;
+}
+.kol-text{
+     margin: 110px 140px 15px 140px ;
+}
+.kol-1{
+    margin: 50px 0;
+}
+.tourism{
+     margin: 40px 0;
+}
+.tourism h1{
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.tourism p{
+    width: 1160px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.t-title p{
+    width: 1160px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.t-1{
+    margin: 20px 0;
+}
+.climate{
+     margin: 80px 0;
+}
+.climate h1{
+    margin: 20px 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.climate p{
+    width: 1160px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.son-2{
+    margin: 80px 0;
+}
+.son-2 h1{
+    margin: 20px 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.son-2 p{
+      margin: 20px 0;
+    width: 1160px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.foto{
+    margin: 0 100px;
+}
+.foto img{
+    width: 964px;
+    height: 560px;
+    flex-shrink: 0;
+}
+.foto h1{
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin: 40px 0;
+}
+
+
+.page h4{
+    color: #0992D5;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.page-img img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin: 30px 5px;
+}
+.arashan-slide {
+    
+    overflow-x: scroll; 
+    display: flex;
+    margin: 30px 12px ;
+    gap: 30px;
+          &::-webkit-scrollbar{
+            display: none;
+          }
+    
+}
