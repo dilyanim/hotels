@@ -29,9 +29,9 @@ function Popular() {
                         <div className="a-block">
                             <div className="comp">
                              <h3>Son-Kol Lakes</h3>
-                            <p>Son-Kol Lakee (Sonkel, Son kul) is located in
+                            <p>Son-Kol Lake (Sonkel, Son kul) is located in
                              the north-west of the Naryn 
-                             region of Kyrgyzstan. This is
+                             region off Kyrgyzstan. This is
                               the second largest lake in the
                                country after Issyk-Kul. 
                                 </p>
