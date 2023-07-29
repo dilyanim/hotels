@@ -1,0 +1,107 @@
+.arashan p{
+    margin: 70px 0;
+    width: 1160px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+.arashan img{
+    width: 1160px;
+    height: 560px;
+    flex-shrink: 0;
+}
+.tourism2 h1{
+    margin: 20px 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.tourism2 p{
+    width: 1160px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.climate2 h1{
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.title h1{
+        
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.title p{
+    width: 1160px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.title h1{
+    margin: 60px 0;
+   
+}
+.arashan{
+     margin: 15px  140px;
+}
+.foto{
+    margin: 0 100px;
+}
+.foto img{
+    width: 964px;
+    height: 560px;
+    flex-shrink: 0;
+}
+.foto h1{
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+.arashan-slide {
+    overflow-x: scroll; 
+    display: flex;
+    margin: 30px 12px;
+    gap: 30px;
+          &::-webkit-scrollbar{
+            display: none;
+          }
+    
+}
+.page h4{
+    color: #0992D5;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.page-img img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin: 10px 5px;
+}

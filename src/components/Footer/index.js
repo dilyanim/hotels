@@ -3,6 +3,7 @@ import logo from "../../img/logo-89.png";
 import fakefook from "../../img/fakebook.png"
 import instagram from "../../img/insta.png"
 import youtube from "../../img/youtube.png"
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -20,7 +21,9 @@ const Footer = () => {
           <div className="footer--list">
             <div className="footer--list__blok">
               <div className="krug"></div>
-              <h2>Our mission/Stability</h2>
+             <Link to={"/our"}>
+             <h2>Our mission/Stability</h2>
+             </Link>
             </div>
             <div className="syz"></div>
 

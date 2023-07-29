@@ -1,4 +1,5 @@
 import React from "react";
+import WelkomePage from "../WelcomePage/index"
 
 const WelcomeKyrgyzstan = () => {
   return (
@@ -10,6 +11,7 @@ const WelcomeKyrgyzstan = () => {
         </div>
       </div>
     </div>
+<WelkomePage/>
     </>
   );
 };

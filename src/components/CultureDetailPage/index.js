@@ -1,5 +1,5 @@
 import React from 'react';
-
+import CulturePage from "../CulturePage/index"
 
 const CultureDetailPage = () => {
   return (
@@ -11,6 +11,7 @@ const CultureDetailPage = () => {
         </div>
       </div>
     </div>
+    <CulturePage/>
     </>
   );
 };
