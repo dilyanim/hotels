@@ -1,0 +1,94 @@
+.header-bar {
+  height: 12.064px;
+  background-color: #0992D5;
+}
+
+#footer {
+  padding: 100px 0;
+  background: #2B2B2B;
+
+  .container {
+      .footer {
+          display: flex;
+          align-items: start;
+          justify-content: start;
+          margin-left: 50px;
+
+          &--logo {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-right: 56px;
+
+              img {
+                  width: 87px;
+                  margin-right: 16px;
+              }
+
+              h1 {
+                  margin-top: 20px;
+                  color: #FFF;
+                  font-family: Inter, sans-serif;
+                  font-size: 22px;
+                  font-weight: 800;
+              }
+          }
+
+          &--list {
+              display: flex;
+              align-items: start;
+              flex-direction: column;
+              justify-content: center;
+              margin-right: 150px;
+
+              &__blok {
+                  display: flex;
+                  align-items: center;
+                  justify-content: start;
+                  margin-bottom: 6px;
+
+                  .krug {
+                      width: 10px;
+                      height: 10px;
+                      border-radius: 50%;
+                      background: #FFF;
+                      margin-right: 12px;
+                      
+                  }
+
+                  h2 {
+                      color: #FFF;
+                      font-family: Inter, sans-serif;
+                      font-size: 22px;
+                      font-weight: 600;
+                      cursor: pointer;
+                      &:hover{
+                        color: #0992D5;
+                        .krug{
+                          background: #0992D5;
+                        }
+                      }
+                      
+                  }
+              }
+
+              .syz {
+                  width: 480px;
+                  height: 1px;
+                  background: #D9D9D9;
+                  margin-bottom: 16px;
+              }
+              
+          }
+
+          &--info {
+              display: flex;
+              align-items: center;
+
+              img {
+                  margin: 0 10px;
+              }
+          }
+      }
+  }
+}

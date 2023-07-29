@@ -1,0 +1,153 @@
+#account {
+  margin: 85px 0 110px 0;
+
+  .container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 230px;
+
+    .account {
+      display: flex;
+      max-width: 800px;
+      /* Настройте максимальную ширину по своему усмотрению */
+      margin: 20px;
+
+      &--tabs {
+        margin-right: 30px;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 568px;
+        border: 1px solid #000;
+
+        &__boxs {
+          margin: 0 15px 0 15px;
+          width: 250px;
+          height: 1px;
+          background: rgba(0, 0, 0, 0.50);
+        }
+
+        img {
+          width: 80px;
+          margin: 32px 0 20px 100px;
+        }
+
+        button {
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: start;
+          padding: 10px;
+          margin: 5px 0;
+          border: none;
+          cursor: pointer;
+          color: #000;
+          background: #FFF;
+          font-family: Inter, sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          padding-left: 50px;
+          transition: .50s;
+
+          &:focus {
+            font-weight: 600;
+          }
+
+
+          &.active {
+
+            background-color: #ddd;
+          }
+        }
+      }
+
+      &--content {
+        margin-top: 20px;
+        flex: 1;
+        padding: 10px;
+
+        .persons {
+          display: flex;
+          align-items: start;
+          flex-direction: column;
+
+          h1 {
+            color: #000;
+            font-family: Inter, sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+          }
+
+          &--name {
+            margin: 10px 0 12px 0;
+
+            &__text {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+
+              h2 {
+                color: #000;
+                font-family: Inter, sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+              }
+
+              h6 {
+                color: #000;
+                text-align: right;
+                font-family: Inter, sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+              }
+            }
+
+            .google {
+              width: 100px;
+              height: 25px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border: 0.5px solid rgba(0, 0, 0, 0.50);
+              margin-bottom: 6px;
+
+            }
+
+            h5 {
+              color: #000;
+              font-family: Inter, sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+              margin: 8px 0 12px 0;
+            }
+
+            h4 {
+              color: #000;
+              font-family: Inter, sans-serif;
+              font-size: 10px;
+              font-weight: 400;
+              margin-bottom: 24px;
+            }
+
+            h3 {
+              color: #000;
+              font-family: Inter, sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+              margin: 8px 0 12px 0;
+            }
+
+            .bk {
+              width: 850px;
+              height: 1px;
+              background: rgba(0, 0, 0, 0.50);
+            }
+          }
+        }
+      }
+    }
+
+
+  }
+}

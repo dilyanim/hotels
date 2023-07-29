@@ -1,0 +1,45 @@
+#ourDetail {
+    .container {
+        .ourDetail {
+            display: flex;
+            align-items: start;
+            justify-content: start;
+            flex-direction: column;
+            margin-left: 80px;
+
+            span {
+                color: #000;
+                font-family: Inter, sans-serif;
+                font-size: 22px;
+                font-weight: 700;
+            }
+
+            p {
+                margin-top: 100px;
+                width: 876px;
+                color: #000;
+                font-family: Inter, sans-serif;
+                font-size: 22px;
+                font-weight: 500;
+            }
+
+            &--img {
+                display: flex;
+                align-items: center;
+                margin: 110px 0 30px;
+
+                img {
+                    margin: 0 6px;
+                }
+            }
+
+            h1 {
+                margin-bottom: 50px;
+                color: #0992D5;
+                font-family: Poppins, sans-serif;
+                font-size: 22px;
+                font-weight: 500;
+            }
+        }
+    }
+}
