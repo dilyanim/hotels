@@ -18,7 +18,7 @@ function Main() {
                        <div>
                        <h3>Kyrgyzstan is a real pearl of Central Asia   
                            and one of the most beautiful original    
-                           countries. <Link className="link" >read more</Link></h3>
+                            countries. {/* <Link className="link" >read more</Link> */}  </h3> 
                        </div>
                        <div>
                         <Link to={"/more"}>
