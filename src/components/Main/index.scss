@@ -1,11 +1,12 @@
 #main{  
     background: url('../../img/main.png') no-repeat center/cover;
-    
+    min-height: 100vh;
+    margin-top: -100px;
 }
 
 .main-text{
-   padding-top: 10px;
-   margin: 10px 120px;
+   padding-bottom: 50px;
+   margin: 10px 125px;
 }
 .main-text h1{
    color: #FFF;

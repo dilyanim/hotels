@@ -1,5 +1,5 @@
-import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import React, { useState } from "react";
+import { Link, } from "react-router-dom";
 import logo from '../../img/logo-89.png'
 import {RiAccountCircleLine} from 'react-icons/ri'
 import rus from '../../img/Untitled.png'
@@ -7,6 +7,11 @@ import rus from '../../img/Untitled.png'
 
 
 function Header(){
+    const [modal , setModal] = useState(false)
+     
+
+
+
     return(
         <div id="header"> 
            <div className="container">
@@ -82,33 +87,20 @@ function Header(){
                       </ul>
                       </div> */}
                 <div  className="header-acc">
-                     <div>
-                        <RiAccountCircleLine className="acc"/>
+                     <div className="acc1">
+                        <RiAccountCircleLine className="acc" />
+                        <button onClick={()=>setModal(true)}>Account</button>
+                    </div>
+                    <div style={{
+                        display:modal? "block":"none"
+                    }} className="acc-btn">
+                        <button className="btn1">Sign up</button>
+                        <button className="btn2">Log in</button>
                     </div>
                     <div>
-                   
-                    <select className="select" >
-                        <option style={{
-                            display:"none",
-                            margin: "0 6px"
-                        }}>Account</option>
-                        <option style={{
-                            color : "black"
-                        }}><Link to={"/sign"}>
-                        <p style={{color:"black"}}>Sign up</p>
-                        </Link></option>
-                        <option style={{
-                            color: "black"
-                        }}>Log in</option>
-                    </select>
-                    </div>
-                    
-                    
-                </div>
-               
-
-            </div>
-               
+                    </div>  
+                 </div>
+              </div>
            </div>
         </div>
     )
